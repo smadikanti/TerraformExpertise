@@ -1,6 +1,4 @@
-provider "aws" {
-  region = "${var.provider_aws_region}"
-}
+
 resource "aws_sqs_queue" "sample_queue_one" {
   name                      = "${var.sample_queue_name}"
   message_retention_seconds = "${var.sample_queue_message_retention_seconds}"

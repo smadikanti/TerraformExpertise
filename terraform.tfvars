@@ -1,5 +1,6 @@
 # terraform.tfvars is picked by default by Terraform
-
+ 
+# Variables for AWS Simple Queue Service Resources in queues.tf
 provider_aws_region = "us-east-1"
 sample_queue_name = "smadikanti-terraform-aws-sqs-queue-sample"
 sample_queue_message_retention_seconds = 1209600

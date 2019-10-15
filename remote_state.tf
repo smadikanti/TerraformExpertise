@@ -4,7 +4,6 @@ terraform {
   backend "s3" {
     bucket  = "smadikanti-terraform-expertise-tf-state"
     key     = "TerraformExpertise/common.tfstate"
-    # versioned_file = "ab"
     encrypt = true
 
     # tf state s3 bucket region
